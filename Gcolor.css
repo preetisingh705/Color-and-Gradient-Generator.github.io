@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(68deg, #ee8390, #d95cee);
+    margin-top: 5.5rem;
+}
+header{
+  height:60px;
+  width: 100%;
+  background:linear-gradient(253deg, #e685a1, #f29b99);
+  position: fixed;
+  border-radius: 0px 0px 7px 7px; 
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+.main{
+    margin: 10px;
+}
+.color{
+    height: 7rem;
+    width: 28rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    button{
+        border-radius: 10px;
+        background-color: rgba(238,238,238,0.5);
+        color: black;
+        padding: 10px;
+        text-align: center;
+        border-color: 2px solid black;
+      }
+      
+      button:hover{
+        background-color: rgba(238,238,238,0.3);
+        cursor: pointer;
+      }
+      
+    
+      
+      
+      .output {
+        align-items: center;
+        border-radius: 5px;
+        background-color: rgba(238,238,238,0.5);
+        color: black;
+        font-family: Montserrat;
+        padding: 7px;
+        text-align: center;
+        border-color: transparent;
+      }
+      
+      #gen-btn {
+        font-size: 25px;
+        margin-right: 20px;
+      }
+
+  @media screen and (max-width:480px) {
+    body{
+      margin-top: 3.5rem;
+    }
+    header{
+      height:2.5rem;
+      width: 100%;
+      border-radius: 0px 0px 3px 3px; 
+      font-size: 23px;
+      padding: 5px;
+    }
+
+    .color{
+      height: 5rem;
+      width: 18rem;
+    
+
+  }
+  button{
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    border-color: 2px solid black;
+  }
+  
+  .output {
+  
+    padding: 3px;
+    font-size: 13px;
+    
+  }
+  .h1{
+    font-family: 10px;
+  }
+
+  }
